@@ -71,6 +71,43 @@ public class IfPractice {
 				message = "不正な信号の色です。";
 		}
 		System.out.println("現在の信号:" + color + "-" + message);
+		//7. while文
+		int i =0;
+		while (i < 3) {
+			System.out.println(i);
+			i ++;
+		}
+		//8. do-while文
+		int I = 7;
+		do {
+			System.out.println(I);
+			I++;
+		} while (I < 3);
+		//9. for文
+		for (int p = 0; p < 3; p++) {
+			System.out.println(p);
+		}
+		//10. 拡張for文
+		int[] numbers = {0, 1, 2};
+		for (int n : numbers) {
+			System.out.println(n);
+		}
+		//11. for文と拡張for文の違い
+		for (int t = 0; t < numbers.length; t++) {
+		    System.out.println(numbers[t]);
+		}
+		for (int n : numbers) {
+		    System.out.println(n);
+		}
+		//12. break
+		for (int r = 0; r < 5; r++) {
+			if (r == 3) {
+				break;
+			}
+			System.out.println(r);
+		}
+
+
 	}
 
 }
